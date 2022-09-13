@@ -1,8 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto';
     margin: 0;
+    background-color: #1f2937;
 }
 
 .header {
@@ -99,6 +100,7 @@ a {
     padding: 32px;
     padding-top: 16px;
     padding-bottom: 128px;
+    background-color: #f9faf8;
 }
 
 #two-title {
@@ -162,6 +164,11 @@ a {
     font-weight: bold;
     font-size: 24px;
     color: #1f2937;
+}
+
+#four {
+    background-color: #f9faf8;
+    padding: 64px;
 }
 
 .call-to-action {
