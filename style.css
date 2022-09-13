@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.list-links {
+    display: flex;
+    margin: 0;
+    gap: 8px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-links > li ~ a {
+    font-size: 180px;
+    color: #e5e7eb;
+}
