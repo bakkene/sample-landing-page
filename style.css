@@ -196,3 +196,15 @@ a {
     padding-bottom: 8px;
     /* max-height: 24px; */
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-color: #1f2937;
+}
+
+#copyright {
+    color: #f9faf8;
+}
