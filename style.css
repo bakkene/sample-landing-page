@@ -9,6 +9,7 @@ body {
     justify-content: space-around;
     padding: 16px;
     background-color: #1f2937;
+    margin: 0;
 }
 
 .logo {
@@ -19,8 +20,9 @@ body {
 .list-links {
     display: flex;
     margin: 0;
-    gap: 8px;
+    gap: 32px;
     list-style-type: none;
+    text-decoration: none;
 }
 
 #one {
@@ -59,10 +61,6 @@ body {
     font-weight: 100;
 }
 
-/* #one > img {
-    flex-basis: 50%;
-} */
-
 button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -73,6 +71,16 @@ button {
     border-radius: 8px;
 }
 
+.title-img {
+    max-width: 600px;
+    /* max-height: 300px; */
+}
+
 a {
     text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header a {
+    font-size: 18px;
 }
